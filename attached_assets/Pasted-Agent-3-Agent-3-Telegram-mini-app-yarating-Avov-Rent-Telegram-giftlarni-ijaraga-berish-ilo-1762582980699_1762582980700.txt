@@ -1,0 +1,62 @@
+Agent 3
+
+Agent 3
+
+Telegram mini app yarating "Avov Rent" - Telegram giftlarni ijaraga berish ilovasi.
+TEXNIK TALABLAR:
+React + TonConnect UI React kutubxonasi
+Telegram WebApp SDK integratsiyasi
+Ton Connect 2.0 hamyon ulanishi
+To'liq responsive mobile dizayn
+DIZAYN:
+Asosiy rang: #2d2d2d (qora-kulrang)
+Glassmorphism effektlar (backdrop-blur, shaffoflik)
+Zamonaviy gradient aksentlar (ko'k-binafsha)
+Custom fontlar: Inter yoki SF Pro
+Smooth animatsiyalar va transitions
+SAHIFALAR:
+RENT (Asosiy):
+Giftlar ro'yxati (card layout)
+Har bir gift: rasm, nom, narx (TON), ijara muddati
+Filter: hammasi/mavjud/band qilingan
+"Ijaraga olish" tugmasi (Ton to'lov bilan)
+PROFILE:
+Foydalanuvchi ma'lumotlari
+Mening ijaralarim (active/tarix)
+Balans (TON)
+Statistika
+invertory va giftlarni olish
+ADMIN PANEL (faqat admin ID uchun):
+Gift qo'shish/tahrirlash/o'chirish
+{ animation gift
+"name": "Plush Pepe #604",
+"lottie": "https://nft.fragment.com/gift/plushpepe-604.lottie.json"
+}
+Barcha ijaralar ro'yxati
+Foydalanuvchilar ro'yxati
+Statistika dashboard
+master wallet : UQCykymqM_PybUwc569W4AJr9l3OxyFJX5l8coAJqOWLmxgk
+FUNKSIYALAR:
+Admin ID tekshiruvi (masalan: const ADMIN_ID = 7263354123)
+Ton Connect orqali to'lov
+Ma'lumotlarni da saqlash
+Telegram tema ranglari integratsiyasi
+Bottom navigation (Rent, Profile, Admin)
+GIFT STRUCTURE:
+{
+id, name, image, pricePerDay (TON),
+status: 'available'/'rented',
+rentedBy, rentedUntil
+}
+Auto re-list. This gift will be available for rent automatically after rental period ends.
+Barcha UI elementlari glassmorphism stilida, smooth animatsiyalar bilan, to'liq ishlaydigan mini app yarating.
+http://t.me/avovrentbot
+8009946572:AAGofiNDhWyO8vR_bEq0zJHaDrUijYwA0Wc
+Pill / Capsule bottom navigation
+
+Glassmorphism pill nav with floating tab
+
+Neon pill navbar
+
+ilovaga loading screen ham qoshib ber typewrite va animation AVOV RENT beautifully loading and beautiful font va mening ilovamda emoji ishlatma <dont use emoji > va faqat UI elementlar ishlat va ton logo va navigation glassmorphism navbar qilib ber
+Bot language uzbek va telegram bot working va database MONGODB mongodb+srv://otaniezovmarks_db_user:m36SomQoetOWUeSR@cluster0.fo93xbc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
